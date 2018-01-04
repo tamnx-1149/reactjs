@@ -1,5 +1,5 @@
 import {Component} from 'react';
-import $ from 'jquery';
+import $ from 'jquery'
 class Common extends Component {
     constructor(props){
         super(props);

@@ -4,14 +4,10 @@ import {Route, Switch} from 'react-router-dom';
 import CreateItem from '../view/Item/Add';
 import ListItem from '../view/Item/index';
 import EditItem from '../view/Item/Edit';
-import Login from '../view/auth/login';
-import Logout from '../view/auth/logout';
+import Login from '../view/Auth/login';
+import Logout from '../view/Auth/logout';
 
 class Router extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <main>
